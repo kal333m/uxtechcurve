@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Process Investigation Workspace · Reactor-02</title>
+<meta name="description" content="Process Investigation Workspace prototype: Reactor-02 temperature excursion, Batch 4471.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="deck" aria-label="Screens">
+  <div class="seg" id="frameSeg">
+    <button data-f="A" class="on"><span>A</span>Default · last 24 h</button>
+    <button data-f="B"><span>B</span>Zoomed &amp; compared · 09:00–09:25</button>
+    <button data-f="C"><span>C</span>Stress case · 33 signals</button>
+  </div>
+</nav>
+<div class="stage"><div class="frame" id="frame"></div></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
